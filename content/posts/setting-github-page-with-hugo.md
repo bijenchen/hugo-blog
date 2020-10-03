@@ -39,7 +39,12 @@ your-website-name 請填入想取的名字。
 ```
     hugo new site your-website-name
 ```
-#### 4. 接下來，因為我選擇的主題是 [Hugo Learn Theme](https://github.com/matcornic/hugo-theme-learn) ，所以按照官方文件安裝主題。
+#### 4. 將整個專案加入 git 版本控制
+在 your-website-name 資料夾內執行以下指令，讓 git 知道這整個資料夾要被 git 追蹤
+```git
+git init
+```
+#### 5. 接下來，因為我選擇的主題是 [Hugo Learn Theme](https://github.com/matcornic/hugo-theme-learn) ，所以按照主題的官方文件安裝主題。
 - 在 hugo site 的結構裡找到 themes 資料夾，在 themes 資料夾裡執行 git clone ，把主題所用到的程式碼從遠端抓下來。
     ```
         ## 進入 themes 資料夾
@@ -59,12 +64,12 @@ your-website-name 請填入想取的名字。
         # 我們現在新增的 config 項目，關於主題的指定
         theme = "hugo-theme-learn"
     ```
-#### 5. 增加一篇文章
+#### 6. 增加一篇文章
 下面這個指令的意思是：在 content 裡增加一個 posts 資料夾，並且在 posts 裡產生一個檔案 my-first-post.md
 ```
     hugo new posts/my-first-post.md
 ```
-#### 6. 在本地預覽網站(含草稿)
+#### 7. 在本地預覽網站(含草稿)
 執行以下指令，告訴 hugo 啟動 server 並且連草稿一併顯示。
 ```
     hugo server -D

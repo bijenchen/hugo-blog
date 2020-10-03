@@ -50,6 +50,7 @@ draft: false
 * 關於重新指定遠端數據庫位置
     - [GitHub “fatal: remote origin already exists”](https://stackoverflow.com/questions/10904339/github-fatal-remote-origin-already-exists)
     - [[Git筆記] 如何移除 remote origin](https://andy6804tw.github.io/2019/01/04/git-remove-remote/)
+* 關於沒有進行首次 commit
     - [Git常見錯誤與操作：error: src refspec master does not match any解決辦法](https://www.itread01.com/content/1546763944.html)
         - 雖然我對這個網站的內容比較有戒心，但是這篇文章給迷惘的我當頭棒喝，所以還是記下來！
 * 可以經常複習一下的 git 教學
