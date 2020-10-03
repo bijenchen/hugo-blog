@@ -25,6 +25,7 @@ draft: false
     + 原因：沒有進行第一次 commit 就想 git push (這真的太瞎了，是想推個鬼？到底有多迷惘 XD)
     + 處理方式：每次開啟新的專案想要進行版本控制時，一定要記得先從 `git init` 開始，新增檔案後進行 first commit ，接著就能做平常熟悉的 git push 了～
 * 搞不懂 git submodule 在幹嘛
+* 沒辦法發布最新版的內容？
 
 ## 節外生枝
 * 想在 VS code 看到漂亮一點的 toml 檔
