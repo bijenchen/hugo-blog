@@ -21,7 +21,9 @@ pre : "<b>[架個部落格] </b>"
 雖然可以單純把每篇筆記做成 .md 檔案放到 github 裡，但是在檢視上似乎又不是非常方便，用手機看 github 時情感上覺得不太順眼，所以想要用 github.io 建立一個靜態網站當作部落格使用。
 
 再來，由於對調校前端畫面沒什麼興趣，想要找現成的畫面模板套不同的文章內容，讓維護部落格這件事情可以最單純化，所以搜尋「 github blog 」看看大家都是怎麼做。找到[這篇](https://ithelp.ithome.com.tw/articles/10198964)和[這篇](https://medium.com/@allen6997535/%E5%BB%BA%E7%AB%8B%E4%B8%80%E5%80%8B%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84-%E7%A8%8B%E5%BC%8F-%E9%83%A8%E8%90%BD%E6%A0%BC-4d295ed96236)，得到了看起來派得上用場的三個新名詞「 Jekyll 」、「 hexo 」和「 hugo 」，丟去 google 搜尋後大致知道這三個都是「靜態網站生成器」，主要的功能是提供模板與網頁生成引擎(參考的是[這篇](https://michaelchen.tech/technical-blogging/static-site-generator/))，讓我們可以在不必研究網頁要如何長出來的情況下運作一個靜態網站。
+
 (但是我的直覺告訴我：「網頁生成引擎如何運作」這個知識對後端工程師來說逃得了一時、逃不了一世。嗯......希望未來的自己來打臉現在的我？ XD )
+
 因為我相信實際使用之後才能真正體會三者的差異以及找出自己的偏好，所以借助[網路上的比拚文](https://raychiutw.github.io/2019/Static-Site-Generator-Comparison/)簡單判斷後，就決定從 hugo 開始實驗，反正之後發現不喜歡就換一個嘛～
 
 ## 碰壁紀錄
@@ -46,6 +48,9 @@ pre : "<b>[架個部落格] </b>"
     + hugo site 要把 commit 過的 public/ 整個資料夾 commit & push 進 hugo site repository
     + draft 設定要從 true 改成 false
 
+* 找不到主頁
+    + 原本想按照 theme 的建議，在 content 層加上 _index.md 檔案，但是有了 content/_index.md 後 hugo 在長 public 檔案時反而無法產生 index.html & index.xml ，導致網站找不到主頁。所以唯獨 content 層不建立 _index.md ，主頁問題日後再議。
+
 ## 節外生枝
 * 想在 VS code 看到漂亮一點的 toml 檔
     + 在 VS code 的延伸模組搜尋關鍵字 TOML ，選一個看起來大家都在用的套件，例如 Better TOML 。
@@ -61,6 +66,13 @@ pre : "<b>[架個部落格] </b>"
 另外，因為我跑去翻了 public 資料夾裡面的 html 檔，想看看會是怎樣的結構，發現 hugo 自己產生的 html 檔案也太醜了吧！！要不是為了套模板，我應該無法忍受下去。哪一天我想不開去學了切版&前端以後，看我不把你換掉！
 
 還是想試試「簡潔乾淨的模板，依照頁面引入不同的 md 檔」這樣的做法。
+
+* 另外記一下耗費時間：從 0 開始到完成筆記 = 14.5 hr
+    + 搞懂靜態網頁產生器是啥 Jekyll, hexo, hugo
+    + 搞懂如何使用 github.io ，包含複習 git init ......
+    + 撰寫筆記
+    + 本地測試 & 實際部署
+    + 挑theme XD
 
 ## 參考資料
 * [[Ting's筆記Day2] 在Github用Jekyll創建自己的blog](https://ithelp.ithome.com.tw/articles/10198964)
