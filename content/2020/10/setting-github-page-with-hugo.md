@@ -3,6 +3,7 @@ title: "用 hugo 搭配 github page 打造一個自己的部落格"
 date: 2020-10-02T14:26:05+08:00
 draft: false
 tags: ["github page","hugo"]
+pre : "<b>[架個部落格] </b>"
 ---
 > 發布日期：2020-10-02
 > 最後更新日期：2020-10-04
@@ -35,7 +36,8 @@ tags: ["github page","hugo"]
 ## 目標
 在 github.io 上產生一個用 hugo 打造的個人主頁 : https://your-github-account.github.io
 
-[契機和碰壁紀錄在這邊](/murmur/murmur-setting-github-page-with-hugo/)
+[契機和碰壁紀錄在這邊](/content/2020/10/setting-github-page-with-hugo-murmur/)
+
 
 ## 前置作業
 1. 擁有一個 github 帳號，而且自己的 domain name 「 your-github-account.github.io 」還沒被佔用。
