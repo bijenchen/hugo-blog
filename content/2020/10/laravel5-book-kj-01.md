@@ -5,8 +5,8 @@ draft: false
 tags: ["latavel 5","reflection"]
 pre : "<b>[讀書筆記]Laravel 5 for beginner 新手道場 </b>"
 ---
-> 發布日期：2020-10-??
-> 最後更新日期：2020-10-07
+> 發布日期：2020-10-16
+> 最後更新日期：2020-10-16
 
 ## 閱讀書籍： Laravel 5 for beginner 新手道場
 #### 作者： 洪可郡（KeJyun）
