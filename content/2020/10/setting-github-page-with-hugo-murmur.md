@@ -6,8 +6,6 @@ hidden : true
 tags: ["github page","hugo","toml","git","git submodule"]
 pre : "<b>[架個部落格] </b>"
 ---
-> 發布日期：2020-10-02
-> 最後更新日期：2020-10-04
 
 <!-- TOC -->
 - [緣起](#緣起)

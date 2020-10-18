@@ -1,0 +1,6 @@
+{{ if isset .Params "lastmod" }}
+  <p style="text-align: right;">發布日期：{{ .PublishDate.Format "Jan 2, 2006" }}</p>    
+  {{ if ne .Lastmod .PublishDate }}
+      <p style="text-align: right;">文章於 {{ .Lastmod.Format "Jan 2, 2006" }} 更新</p>
+  {{ end }}
+{{ end }}

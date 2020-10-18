@@ -2,3 +2,14 @@ baseURL = "https://bijenchen.github.io/"
 languageCode = "en-us"
 title = "文科人的資訊筆記"
 theme = "hugo-theme-learn"
+
+# 允許使用 Emoji
+enableEmoji = true
+# 顯示 Git 資訊
+enableGitInfo = true
+
+# 建立 menu 的 tag 捷徑
+[[menu.shortcuts]]
+name = "<i class='fas fa-tags'></i> Tags"
+url = "/tags"
+weight = 30

@@ -1,12 +1,11 @@
 ---
 title: "初探&建環境"
 date: 2020-10-04T15:24:32+08:00
+publishDate : 2020-10-16T14:26:05+08:00
 draft: false
 tags: ["latavel 5","reflection"]
 pre : "<b>[讀書筆記]Laravel 5 for beginner 新手道場 </b>"
 ---
-> 發布日期：2020-10-16
-> 最後更新日期：2020-10-16
 
 ## 閱讀書籍： Laravel 5 for beginner 新手道場
 #### 作者： 洪可郡（KeJyun）
