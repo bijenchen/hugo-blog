@@ -2,6 +2,7 @@
 title: "關於：用 hugo 搭配 github page 打造一個自己的部落格"
 date: 2020-10-02T18:05:44+08:00
 draft: false
+hidden : true
 tags: ["github page","hugo","toml","git","git submodule"]
 pre : "<b>[架個部落格] </b>"
 ---

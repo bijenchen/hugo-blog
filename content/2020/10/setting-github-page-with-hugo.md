@@ -1,5 +1,6 @@
 ---
 title: "用 hugo 搭配 github page 打造一個自己的部落格"
+menuTitle: "hugo blog"
 date: 2020-10-02T14:26:05+08:00
 draft: false
 tags: ["github page","hugo"]
