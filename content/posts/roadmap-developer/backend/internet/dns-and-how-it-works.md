@@ -4,7 +4,7 @@ menuTitle: "DNS"
 date: 2020-10-19T00:13:02+08:00
 publishDate: 2020-10-19T00:13:02+08:00
 draft: false
-tags: ["roadmap-developer","internet"]
+tags: ["roadmap-developer","internet","DNS","Domamin Name System"]
 pre : '<i class="fas fa-globe" style="margin: 3px;"></i>'
 ---
 # DNS 是什麼 ? 他們是如何運作 ?
