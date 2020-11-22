@@ -1,6 +1,6 @@
 ---
 title: "What Is Domain Name"
-menuTitle: "Domain"
+menuTitle: "域名"
 date: 2020-10-19T00:13:14+08:00
 publishDate: 2020-11-19T00:13:14+08:00
 draft: false

@@ -1,9 +1,9 @@
 ---
 title: "What Is Hosting"
-menuTitle: "Hosting"
+menuTitle: "網站代管"
 date: 2020-10-19T00:13:27+08:00
 publishDate: 2020-11-22T00:00:00+08:00
-draft: true
+draft: false
 tags: ["roadmap-developer","internet","hosting","web host"]
 pre : '<i class="fas fa-globe" style="margin: 3px;"></i>'
 ---
