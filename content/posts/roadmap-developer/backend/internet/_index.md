@@ -11,4 +11,4 @@ post : '<i class="fas fa-globe" style="margin: 3px;"></i>'
 * [Browsers and how they work? 瀏覽器有哪些 ? 他們是如何運作 ?](/posts/roadmap-developer/backend/internet/browsers-and-how-they-work)
 * [DNS and how it works? DNS 是什麼 ? 他們是如何運作 ?](/posts/roadmap-developer/backend/internet/dns-and-how-it-works)
 * [What is Domain Name? Domain Name 是什麼 ?](/posts/roadmap-developer/backend/internet/what-is-domain-name)
-* What is hosting? Hosting 是什麼 ?
+* [What is hosting? Hosting 是什麼 ?](/posts/roadmap-developer/backend/internet/what-is-hosting)
