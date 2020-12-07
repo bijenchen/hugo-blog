@@ -18,6 +18,8 @@ pre : "<b>[名詞解釋] </b>"
     + platform as a service, 平台即服務
 * FaaS
     + 無伺服器運算（英語：Serverless computing），Function-as-a-Service,功能即服務
+* EaaS
+    + 好啊，大家都要來 "aaS" 一下，2020 臺灣教育科技展的標語是「Education as a Service」......好喔～XD
 
 ## 參考資料
 - [SaaS](https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6%E5%8D%B3%E6%9C%8D%E5%8A%A1)

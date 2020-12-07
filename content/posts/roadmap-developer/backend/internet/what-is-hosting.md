@@ -27,3 +27,8 @@ pre : '<i class="fas fa-globe" style="margin: 3px;"></i>'
 - [什麼是網頁寄存 (What is Web Hosting)](http://learn-web-hosting-domain-name.mygreatname.com/what-is-web-hosting.html)
 ### 關於 Hostname 的資料來源待補充
 - []
+
+### 可能還需要知道的知識
+- 分辨網址列裡的成分：[Uniform Resource Identifier](https://zh.wikipedia.org/wiki/%E7%BB%9F%E4%B8%80%E8%B5%84%E6%BA%90%E6%A0%87%E5%BF%97%E7%AC%A6)
+- [Domain name](https://zh.wikipedia.org/wiki/%E5%9F%9F%E5%90%8D)
+- [Host name](https://zh.wikipedia.org/wiki/%E4%B8%BB%E6%A9%9F%E5%90%8D%E7%A8%B1)
