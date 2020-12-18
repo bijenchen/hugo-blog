@@ -1,12 +1,10 @@
----
-title: "12"
-menuTitle: ""
-date: 2020-12-01T11:43:32+08:00
-publishDate: 2020-12-01T11:43:32+08:00
-draft: true
-tags: [""]
-pre : "<b>[] </b>"
----
++++
+title = "12月"
+chapter = true
+weight = 5
++++
 
-## 參考資料
-- []()
+## 12月主題列表
+
+* 2020-12-01 : [口aaS 系列名詞](/posts/2020/12/XaaS)
+* 2020-12-18 : [各種「比較」](/posts/2020/12/compare)
