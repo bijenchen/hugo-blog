@@ -5,7 +5,7 @@ date: 2020-11-30T18:04:49+08:00
 publishDate: 2020-11-30T18:04:49+08:00
 draft: false
 tags: ["SQL","experience"]
-pre : ""
+pre : "<b>[工作筆記] </b>"
 ---
 
 # 原則

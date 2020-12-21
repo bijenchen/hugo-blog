@@ -5,7 +5,7 @@ date: 2020-11-30T18:05:53+08:00
 publishDate: 2020-11-30T18:05:53+08:00
 draft: false
 tags: ["google sheet","formula","experience"]
-pre : ""
+pre : "<b>[工作筆記] </b>"
 ---
 
 * 比較 A 欄 與 B 欄差異
