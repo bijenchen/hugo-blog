@@ -19,5 +19,5 @@ weight = 5
 * 2020-11-30 : [google sheet 自訂公式](/posts/2020/11/google-sheet-formula)
 
 #### 12月
-* 2020-12-01 : [口aaS 系列名詞](/posts/2020/12/XaaS)
+* 2020-12-01 : [口aaS 系列名詞](/posts/2020/12/xaas)
 * 2020-12-18 : [各種「比較」](/posts/2020/12/compare)
