@@ -9,7 +9,7 @@ pre : "<b>[工作筆記] </b>"
 ---
 
 ```sql=
-SELECT CASE ("欄位名")
+SELECT CASE ("欄位名") AS "別名"
   WHEN "條件1" THEN "結果1"
   WHEN "條件2" THEN "結果2"
   ...
