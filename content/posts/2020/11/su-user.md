@@ -5,7 +5,7 @@ date: 2020-11-17T11:45:41+08:00
 publishDate: 2020-11-17T11:45:41+08:00
 draft: false
 tags: ["command in linux","su","experience"]
-pre : ""
+pre : "<b>[工作筆記] </b>"
 ---
 
 **這個單元有點邪惡，除非必要否則不要擅自進行。**
