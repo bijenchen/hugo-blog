@@ -31,6 +31,10 @@ pre : '<i class="fas fa-key" style="margin: 3px;"></i>'
 
 解密完後伺服器就會看到我們的登入資訊，因而放行讓我們登入。
 
+## 如何增加 ssh key 到 bitbucket 中，並且使用自訂的 hostname
+
+### 連線資訊
+![](https://i.imgur.com/AqxzkWO.png)
 
 ## 參考資料
 - [你該知道所有關於 SSH 的那些事](https://jennycodes.me/posts/security-ssh)
@@ -39,3 +43,4 @@ pre : '<i class="fas fa-key" style="margin: 3px;"></i>'
 ## 延伸閱讀
 - [How to Create SSH Tunneling or Port Forwarding in Linux](https://www.tecmint.com/create-ssh-tunneling-port-forwarding-in-linux/)
 - [SSH Config File](https://www.ssh.com/ssh/config/)
+- [[教學] 產生SSH Key並且透過KEY進行免密碼登入](https://xenby.com/b/220-%E6%95%99%E5%AD%B8-%E7%94%A2%E7%94%9Fssh-key%E4%B8%A6%E4%B8%94%E9%80%8F%E9%81%8Ekey%E9%80%B2%E8%A1%8C%E5%85%8D%E5%AF%86%E7%A2%BC%E7%99%BB%E5%85%A5)
