@@ -29,3 +29,5 @@ pre : '<i class="fas fa-key" style="margin: 3px;"></i>'
     + gitlab 官方文件，說明為何會推出 gitlab flow 此機制。宣稱是結合 git flow & github flow 的優點，但我還沒搞懂哪裡比較優了......
 - [筆記：TBD是三小?---What is Trunk Based Development?](https://nedwu13.blogspot.com/2014/01/tbd-what-is-trunk-based-development.html)
     + 另一種流程： Trunk Based Development, 但又更少碰到，先存參。
+- [GammaRayStudio>DevelopmentDocuments>Repository](https://gitlab.com/GammaRayStudio/DevDoc/-/blob/master/Git/001-4.git-flow.md)
+    + git flow 美圖
