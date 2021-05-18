@@ -38,7 +38,7 @@ pre : "<b>[工作筆記] </b>"
 
 ```
 server {
-        server_name bijen-project_1; # <-- domain name
+        server_name bijen-project_1; # <-- hostname
 
         listen 80;
         root /home/bijen/www/project_1/frontend/dist;
@@ -73,7 +73,7 @@ server {
 }
 
 server {
-        server_name bijen-project_2; # <-- domain name
+        server_name bijen-project_2; # <-- hostname
 
         listen 80;
         root /home/bijen/www/project_2;
