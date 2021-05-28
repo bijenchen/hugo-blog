@@ -249,6 +249,10 @@ bijen.laravel-site
 
 ## 節外生枝
 
+### 手殘誤刪 homestead 使用的 ubuntu .vmdk 檔案
+解法：因為除了虛擬機中使用的容器 (vmdk) 以外， Vitural Box,vagrant,homestead 都是裝好的，這時候只要重置 homestead 環境即可。指令：
+` vagrant init laravel/homestead `
+
 ## 後記
 
 ## 參考資料

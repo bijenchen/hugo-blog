@@ -5,7 +5,7 @@ date: 2020-11-11T23:43:12+08:00
 publishDate: 2020-11-12T01:00:00+08:00
 draft: false
 tags: ["design","sleep","experience"]
-pre : ""
+pre : "<b>[工作筆記] </b>"
 ---
 
 程式設計時有時候會需要用到「 sleep 」這個概念，
