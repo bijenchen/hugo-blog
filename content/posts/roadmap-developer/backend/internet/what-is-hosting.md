@@ -14,7 +14,7 @@ pre : '<i class="fas fa-globe" style="margin: 3px;"></i>'
 # 案外案： 那 Hostname 又是什麼？
 
 在還沒有網際網路的時代，主機之間互相聯絡的方式就是自己製作一份主機的通訊錄(也就是常見的 /etc/hosts 那份檔案)，讓自己記得聯絡對象的 ip ，並且為該 ip 賦予一個我的主機認得的名字。
-這個名字就稱為「Hostname」。
+這個名字就稱為「 Hostname 」。
 
 當自己主機要向外聯絡時，會優先去查看通訊錄裡是不是已經認得這個 Hostname ， 不認得時才會向外去 DNS 詢問是否有對應 Domain Name 。
 
