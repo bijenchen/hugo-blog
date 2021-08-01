@@ -23,6 +23,11 @@ docker 是一個能將運行環境標準化，並且適度分隔環境的服務�
 於是，將作業系統封裝成容器的 Docker 機制提供了更符合需求的解方，  
 對於不必動用較底層的系統資源(例如使用 cron job 排程)者，將服務作為容器操作，會更加快速簡便。  
 
+### Docker 的運作方式
+在 Docker 環境中，可以將各容器粗略理解成現實中的一台實體主機，每個容器都是一台主機，主機 ip 在 Docker 世界中對應到的是 container name 。用這樣的概念做初步理解會比較容易進入狀況。
+
+在「 container 等同主機」的設定下，不管是代理伺服器、專案伺服器等都能規劃進整個架構中，  
+我們可以用 A container 作為 nginx server ，把接收到的 http request 轉導給 B container ，藉此訪問整個專案網站。
 
 ## 參考資料
 - [專家觀點：Docker架構優缺點大剖析](https://www.ithome.com.tw/news/103247)
