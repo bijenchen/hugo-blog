@@ -29,7 +29,8 @@ pre : "<b>[工作筆記] </b>"
 ## 權限不足時顯示的畫面
 
 - 未使用足夠權限的身份執行，導致部分檔案無法讀取。
-  + [](https://imgur.com/RwEy5Wd)
+  + ![](https://imgur.com/RwEy5Wd.png)
+  + ![pic](/images/2021/05/nginx/posts_2021_05_nginx_permission.png)
   + 解法：使用更高權限的身份執行，或者直接用 sudo (用 sudo 之前，先確定自己清楚當下的行為以及結果喔！)
 
 ## 設定舉例
