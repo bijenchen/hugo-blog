@@ -140,6 +140,51 @@ DB_BIJEN_USERNAME=bijen           # 欲連線的資料庫登入資訊
 DB_BIJEN_PASSWORD=*******         # 欲連線的資料庫登入資訊
 ```
 
+
+## 如何以 SSH 登入遠端機器(以 Google Cloud Platform 上的 Linux Virtual Machine 為例)
+
+### 【前置作業】首先我們必須先有一個 GCP 的 Linux VM
+google 做的新手教學蠻友善的，可以照步驟做：  
+1. 點選[畫面](https://cloud.google.com/gcp/getting-started/?authuser=1#quick-starts)裡「建立Linux VM」的「查看說明文件」  
+![](/images/2021/12/gcp_linux_vm/gcp_linux_vm_01_getting_start.png)
+2. 點選教學文件中的「guide me」(如果喜歡看純文字板，也可以直接看按鈕下方的說明，步驟一樣)
+![](/images/2021/12/gcp_linux_vm/gcp_linux_vm_02_guide_me.png)
+3. 按照右側說明框指示操作，首先是按下「開始連結」，接著右側說明框會一步一步提示。
+![](/images/2021/12/gcp_linux_vm/gcp_linux_vm_03_start_guide.png)
+![](/images/2021/12/gcp_linux_vm/gcp_linux_vm_04_create_vm_instance.png)
+![](/images/2021/12/gcp_linux_vm/gcp_linux_vm_05_set_ubuntu.png)
+![](/images/2021/12/gcp_linux_vm/gcp_linux_vm_06_creating.png)
+4. 照著此步驟點選 SSH 後，開啟的是瀏覽器連線模式(有鑑於 Windows 開發環境的支援度經常慢人一拍，微軟使用者停在這步也是可以的)。如果想以自己的 terminal 連線的話，必須額外進行 SSH 設定，也就是這節的正題。
+![](/images/2021/12/gcp_linux_vm/gcp_linux_vm_07_get_a_vm_instance.png)
+
+### 【正題】設定與遠端機器連線
+【大概念】  
+本地：在 `/home/[local_user_name]/.ssh` 要有 SSH 密鑰組(例如 id_rsa & id_rsa.pub 這樣的東西)
+遠端：在 `/home/[remote_user_name]/.ssh` 要有 authorized_keys 這個檔案，裡面存放想要連進遠端機器的公鑰
+步驟概述：將本地的公鑰(.pub檔)內容存到遠端機器的 authorized_keys 中，即可在本地以指令 `ssh [remote_user_name]@[remote_public_ip]` 連線進入遠端機器
+
+#### 本地產生 SSH 密鑰組
+在本地的 `.ssh/` 目錄(`/home/[local_user_name]/.ssh`)裡，  
+執行指令 `ssh-keygen` 自動產生密鑰組，可以命名成方便辨認的名字。  
+延伸閱讀:[Set up SSH public key authentication to connect to a remote system](https://kb.iu.edu/d/aews)
+這裡我產生的密鑰組名稱如下：  
+- 私鑰:id_rsa_gcp  
+- 公鑰:id_rsa_gcp.pub  
+
+以指令 `cat id_rsa_gcp.pub` 即可從 terminal 看到公鑰的內容，複製起來備用。
+
+#### 遠端機器中產生 authorized_keys 檔案，並將剛剛產生的公鑰寫入檔案內容
+在遠端機器的 `.ssh/` 目錄(`/home/[remote_user_name]/.ssh`)裡，  
+執行指令 `touch authorized_keys` ，如果檔案已有則直接使用即可。  
+以指令 `vim authorized_keys` 開啟檔案，按下「i」進入「輸入(insert)模式」，  
+將複製起來的公鑰內容貼上後，按下「esc」離開目前模式後，輸入「:wq」並按下確認，即完成檔案異動。  
+(如果想要放棄編輯，改成輸入「:q!」即可。w=write, q=quit, !=force)
+
+#### 在本地進行遠端登入
+遠端儲存 authorized_keys 成功後，在本地任一目錄使用指令 `ssh [remote_user_name]@[remote_public_ip]`，  
+即可成功登入遠端機器。  
+登入時要搞清楚是用「什麼帳號(user_name)」去登入「什麼ip」喔～
+
 ## 參考資料
 - [你該知道所有關於 SSH 的那些事](https://jennycodes.me/posts/security-ssh)
 - [第十一章、遠端連線伺服器SSH / XDMCP / VNC / RDP](http://linux.vbird.org/linux_server/0310telnetssh.php)
